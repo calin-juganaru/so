@@ -1,0 +1,4 @@
+execve("/bin/sh", ["sh", "-c", "ls"], 0x7ffefd738ee0 /* 54 vars */) = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f5f766d1810) = 7888
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7888, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
++++ exited with 0 +++

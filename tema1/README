@@ -1,0 +1,22 @@
+    @Stricturi de date folosite:
+        - define-uri -> hash map cu vector static de liste alocate dinamic de
+                        găleți ce conțin noduri de tupluri (hash(cheie), cheie,
+                        valoare). hash-ul, chiar dacă este calculat în funcție
+                        de cheie, este reținut în structură pentru a căuta mai
+                        ușor o anumită cheie
+        - conținutul unui fișier -> listă alocată dinamic de linii (string-uri)
+        - căile pentru fișiere antet -> listă dinamică de căi
+
+    @Algoritm:
+        Pentru input (din fișier sau stdin) creez o structură de date de tip
+    file, care va conține liniile citite. Pe lângă aceasta, mai inițializez și
+    câte o structură pentru define-uri și căi. Funcția parse_file va parsa
+    intrarea linie cu linie, folosind încă o structură de tip file, în care
+    va aplica modificările necesare și pe care o voi afișa la final.
+        Funcția parse_line primește o linie din fișierul de intrare și,
+    dacă începe cu un cuvânt cheie (define, ifdef, etc.), conține un simbol
+    definit sau se află într-un bloc if-else, înlocuiește în linie, renunță
+    la ea sau o pasează mai departe fișierului final.
+        În loc de malloc, calloc, realloc și strdup mi-am implementat propriile
+    funcții (alloc, reloc și strdupl), care verifică de fiecare dată dacă zona
+    de memorie a fost într-adevăr alocată, și, în caz contrar, apelează exit(12).

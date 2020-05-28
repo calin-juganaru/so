@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="lab01-win">
+</Property><Property Name="Solution File" Value="\\vmware-host\Shared Folders\Extern\lab01\win\VS Tutorial\lab01-win.sln">
+</Property><Property Name="Date" Value="Tuesday, February 25, 2020">
+</Property><Property Name="Time" Value="14:31 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="lab01-win.sln" Description="File successfully backed up as \\vmware-host\Shared Folders\Extern\lab01\win\VS Tutorial\lab01-win.sln.old">
+</Event><Event ErrorLevel="0" Project="Hello World" Source="Hello World\Hello World.vcproj" Description="Converting project file '\\vmware-host\Shared Folders\Extern\lab01\win\VS Tutorial\Hello World\Hello World.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Hello World" Source="Hello World\Hello World.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Hello World" Source="Hello World\Hello World.vcproj" Description="Done converting to new project file '\\vmware-host\Shared Folders\Extern\lab01\win\VS Tutorial\Hello World\Hello World.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Hello World" Source="Hello World\Hello World.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="lab01-win.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="lab01-win.sln" Description="Converted">
+</Event></UpgradeLog>

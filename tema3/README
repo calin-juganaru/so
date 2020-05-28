@@ -1,0 +1,14 @@
+    La fiecare semnal de page fault, handler-ul sigsegv_handler() va primi
+adresa la care s-a produs și va determina, întâi, segmentul și pagina din
+care provine adresa. Adresa primită trebuie să se încadreze între limitele
+unuia dintre segmentele din exect, iar pagina este calculată din offset-ul
+față de începutul segmentului împărțit la dimensiunea unei pagini.
+    Dacă segmentul nu este valid (nu face parte din zona de memorie pe care
+programul o are de gestionat) sau dacă pagina curentă a fost deja mapată va
+fi apelat handler-ul default și va ieși din funcție. În câmpul data al
+structurii exec rețin vector de apariții pentru paginile pe care le-am mapat
+deja.
+    Cu mmap mapez pagina curentă, apoi citesc din fișier de la offset-ul
+segmentului + offset-ul paginii într-un buffer și copiez datele la acea
+adresă. La final, cu mprotect setez permisiunile pentru pagina proaspăt
+mapată preluate din exec.

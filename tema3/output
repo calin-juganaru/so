@@ -1,0 +1,278 @@
+
+
+Entered segv_handler
+	segment: 0
+	page: 0
+	info->si_addr: 0x804801c
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x8048000
+	mmap_pointer: 0x8048000
+	data: 4096
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 1
+	info->si_addr: 0x8049312
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x8049000
+	mmap_pointer: 0x8049000
+	data: 8192
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 1
+	page: 3
+	info->si_addr: 0x80dad30
+	vaddr: 80d7000
+	file_size: 17212
+	mem_size: 20528
+	offset: 581632
+	perm: 3
+	address: 0x80da000
+	mmap_pointer: 0x80da000
+	data: 4096
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 1
+	page: 4
+	info->si_addr: 0x80db8e0
+	vaddr: 80d7000
+	file_size: 17212
+	mem_size: 20528
+	offset: 581632
+	perm: 3
+	address: 0x80db000
+	mmap_pointer: 0x80db000
+	data: 8192
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 1
+	page: 1
+	info->si_addr: 0x80d8da8
+	vaddr: 80d7000
+	file_size: 17212
+	mem_size: 20528
+	offset: 581632
+	perm: 3
+	address: 0x80d8000
+	mmap_pointer: 0x80d8000
+	data: 12288
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 39
+	info->si_addr: 0x806f220
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x806f000
+	mmap_pointer: 0x806f000
+	data: 12288
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 12
+	info->si_addr: 0x8054c1a
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x8054000
+	mmap_pointer: 0x8054000
+	data: 16384
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 102
+	info->si_addr: 0x80aea74
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x80ae000
+	mmap_pointer: 0x80ae000
+	data: 20480
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 38
+	info->si_addr: 0x806ec70
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x806e000
+	mmap_pointer: 0x806e000
+	data: 24576
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 4
+	info->si_addr: 0x804ce53
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x804c000
+	mmap_pointer: 0x804c000
+	data: 28672
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 8
+	info->si_addr: 0x8050196
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x8050000
+	mmap_pointer: 0x8050000
+	data: 32768
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 1
+	page: 2
+	info->si_addr: 0x80d9040
+	vaddr: 80d7000
+	file_size: 17212
+	mem_size: 20528
+	offset: 581632
+	perm: 3
+	address: 0x80d9000
+	mmap_pointer: 0x80d9000
+	data: 16384
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 21
+	info->si_addr: 0x805d880
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x805d000
+	mmap_pointer: 0x805d000
+	data: 36864
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 89
+	info->si_addr: 0x80a10c0
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x80a1000
+	mmap_pointer: 0x80a1000
+	data: 40960
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 22
+	info->si_addr: 0x805e390
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x805e000
+	mmap_pointer: 0x805e000
+	data: 45056
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 72
+	info->si_addr: 0x8090260
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x8090000
+	mmap_pointer: 0x8090000
+	data: 49152
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 73
+	info->si_addr: 0x8091e20
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x8091000
+	mmap_pointer: 0x8091000
+	data: 53248
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 37
+	info->si_addr: 0x806d470
+	vaddr: 8048000
+	file_size: 582312
+	mem_size: 582312
+	offset: 0
+	perm: 5
+	address: 0x806d000
+	mmap_pointer: 0x806d000
+	data: 57344
+Exited segv_handler
+
+
+Entered segv_handler
+	segment: 0
+	page: 75
+	info->si_addr: 0x8093400
+	vaddr: 8048000
+	file_size: 
